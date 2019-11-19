@@ -1758,12 +1758,7 @@ input, select, textarea {
 		text-align: center;
 	}
 	
-	header img{
-		align="left";
 	
-	max-width: 70%;
- 	   height: auto;
-	}
 
 	header p {
 		color: rgba(255, 255, 255, 0.5);
@@ -2494,7 +2489,7 @@ input, select, textarea {
 		input[type="button"].primary,
 		button.primary,
 		.button.primary {
-			background-color: #283266;
+			background-color:  #8d0034; 
 			box-shadow: none !important;
 			color: #ffffff !important;
 		}
@@ -2504,7 +2499,7 @@ input, select, textarea {
 			input[type="button"].primary:hover,
 			button.primary:hover,
 			.button.primary:hover {
-				background-color: rgba(43, 53, 117, .5) !important;
+				background-color: rgba(43, 53, 117, .75) !important;
 			}
 
 			input[type="submit"].primary:active,
@@ -2567,6 +2562,13 @@ input, select, textarea {
 			position: relative;
 			text-align: left;
 			width: 50%;
+		}
+		.features img{
+		
+			width: 100%;
+			justify-content: center;
+		
+		
 		}
 
 			.features li:nth-child(1) {
@@ -3711,6 +3713,11 @@ input, select, textarea {
 			left: 0;
 			top: 0;
 			opacity: 0;
+		}
+		
+		#banner img{
+			padding:3em;
+			width: 70%;
 		}
 
 		@media screen and (max-width: 736px) {
