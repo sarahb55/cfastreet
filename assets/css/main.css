@@ -2783,7 +2783,7 @@ input, select, textarea {
 
 		.wrapper.style1 {
 			background-color:#283266;
-			background-image: linear-gradient(to right, #8d0034 , #283266); 
+		background-image: linear-gradient(to right, #8d0034 , #283266); 
 			color: #c8ece9;
 		}
 
@@ -2838,6 +2838,7 @@ input, select, textarea {
 				.wrapper.style1 select option {
 					color: #ffffff;
 					background: #21b2a6;
+					
 				}
 
 			.wrapper.style1 input[type="checkbox"] + label,
@@ -3000,7 +3001,7 @@ input, select, textarea {
 
 				.wrapper.style3 select option {
 					color: #ffffff;
-					background: #505393;
+					background: #283266;
 				}
 
 			.wrapper.style3 input[type="checkbox"] + label,
@@ -3016,7 +3017,7 @@ input, select, textarea {
 			.wrapper.style3 input[type="checkbox"]:checked + label:before,
 			.wrapper.style3 input[type="radio"]:checked + label:before {
 				background: #ffffff;
-				color: #505393;
+				color: #283266;
 			}
 
 			.wrapper.style3 ::-webkit-input-placeholder {
@@ -3126,7 +3127,7 @@ input, select, textarea {
 			}
 
 			.wrapper.style5 blockquote {
-				border-color: #dfdfdf;
+				border-color: #8d0034;
 			}
 
 			.wrapper.style5 code {
@@ -3317,7 +3318,8 @@ input, select, textarea {
 		-ms-transition: -ms-transform 0.5s ease;
 		transition: transform 0.5s ease;
 		-webkit-overflow-scrolling: touch;
-		background: #21b2a6;
+		background: #000;
+		background-image: linear-gradient(to right, #8d0034 , #283266); 
 		color: #ffffff;
 		height: 100%;
 		max-width: 80%;
@@ -3672,9 +3674,11 @@ input, select, textarea {
 		}
 		
 		#banner img{
-			padding:3em;
-			width: 40%;
-			min-width: 300px;
+			margin: auto;
+  			width: 50%;
+  			padding: 20px;
+  			min-width: 300px;
+
 		}
 
 		@media screen and (max-width: 736px) {
