@@ -175,6 +175,10 @@ input, select, textarea {
 			color: inherit;
 			text-decoration: none;
 		}
+		h1 {
+		font-size: 2.35em;
+		line-height: 1.1em;
+	}
 
 	h2 {
 		font-size: 1.35em;
@@ -3678,6 +3682,7 @@ input, select, textarea {
   			width: 50%;
   			padding: 20px;
   			min-width: 300px;
+  			max-width: <600px>;
 
 		}
 
