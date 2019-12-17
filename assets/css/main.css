@@ -2122,7 +2122,7 @@ input, select, textarea {
 		}
 
 		.image.left, .image.right {
-			max-width: 30%;
+			max-width: 200px;
 		}
 
 			.image.left img, .image.right img {
@@ -2137,6 +2137,16 @@ input, select, textarea {
 
 			.image.fit img {
 				width: 100%;
+			}
+			
+			.image.reasons img{
+			
+				align: right;
+				width: 100%;
+				display: block;
+				margin: 2em 0 2em 0;
+
+			
 			}
 
 /* List */
@@ -3418,7 +3428,7 @@ input, select, textarea {
 		-ms-transition: background-color 0.2s ease;
 		transition: background-color 0.2s ease;
 		background: #000;
-		height: 4em;
+		height: 5em;
 		left: 0;
 		line-height: 3em;
 		position: fixed;
@@ -3826,7 +3836,7 @@ input, select, textarea {
 		@media screen and (max-width: 1680px) {
 
 			#main > header {
-				padding: 1em 0 1em 0 ;
+				padding: 15em 0em 15em 0em;
 			}
 
 		}
